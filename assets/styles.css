@@ -354,3 +354,6 @@ p:last-child{margin-bottom:0}
 .panel-ink .tl .yr{color:#aeb8d8}
 .panel-ink .tl h4{color:var(--paper)}
 .panel-ink .tl p{color:rgba(245,243,238,.80)}
+
+/* CTA 內距修正：.nav-links a 的 padding:6px 0 specificity 較高會壓掉 .nav-cta，需用更高特異性確保左右留白 */
+.nav-links a.nav-cta{padding:12px 26px;line-height:1;letter-spacing:.04em}
