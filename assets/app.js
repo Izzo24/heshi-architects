@@ -1,4 +1,4 @@
-/* 合石建築師事務所 — interactions */
+/* 垚白建築師事務所 — interactions */
 (function(){
   "use strict";
 
